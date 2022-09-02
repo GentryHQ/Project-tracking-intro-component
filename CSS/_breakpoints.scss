@@ -1,0 +1,12 @@
+@use "./component/hero" as h;
+@use "./component/nav" as n;
+
+// Medium screen size (md)
+@media (min-width: 950px) {
+  @include h.hero--md();
+}
+
+// Activates the larger menu at this screen size
+@media (min-width: 768px) {
+  @include n.nav-md();
+}

@@ -1,0 +1,12 @@
+@mixin flex($val) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: $val;
+}
+
+.container {
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}

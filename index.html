@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+
+    <!-- link to css stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <a href="./index.html">
+            <img
+              src="./images/logo.svg"
+              alt="home logo"
+              class="header__nav_logo logo"
+            />
+          </a>
+          <ul class="header__nav_links">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li class="line"></li>
+            <li><a href="#" class="login">Login</a></li>
+          </ul>
+          <button id="ham">
+            <img src="./images/icon-hamburger.svg" alt="Open Menu" />
+          </button>
+          <button id="close">
+            <img src="./images/icon-close.svg" alt="Close Menu" />
+          </button>
+        </nav>
+
+        <div class="hero">
+          <div class="hero__col_1">
+            <h2><span>New</span> Monograph Dashboard</h2>
+            <h1>Powerful insights into your team</h1>
+            <p>
+              Project planning and time tracking <br />
+              for agile teams
+            </p>
+
+            <div class="hero__btn">
+              <a href="#" class="hero__btn_primary">Schedule a demo</a>
+              <a href="#" class="hero__btn_secondary">to see a preview</a>
+            </div>
+          </div>
+
+          <div class="hero__bg"></div>
+
+          <div class="hero__col_2">
+            <div class="hero__col_2_bg"></div>
+            <img
+              src="./images/illustration-devices.svg"
+              alt="illustration-devices"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
