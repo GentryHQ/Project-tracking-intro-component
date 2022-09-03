@@ -39,8 +39,8 @@ I added a new feature outside the original design
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [GitHub Page](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/GentryHQ/Project-tracking-intro-component)
+- Live Site URL: [GitHub Page](https://gentryhq.github.io/Project-tracking-intro-component/)
 
 ## My process
 
